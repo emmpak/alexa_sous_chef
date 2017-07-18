@@ -1,4 +1,4 @@
-require 'dotenv/load'
+require 'dotenv/load' if (ENV['RUBY_ENV'] == "development" || ENV['RUBY_ENV'] == "test")
 require 'net/http'
 require 'fatsecret'
 require_relative './ingredients'
