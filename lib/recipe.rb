@@ -17,7 +17,7 @@ class Recipe
   end
 
   def self.search(ingredient, number, api = FatSecret)
-    query = api.search_recipes(ingredient.join(" "), number)
+    query = api.search_recipes(self.combine_ingredients(ingredient), number)
     query['recipes']['recipe'].map! { |recipe| {recipe['recipe_name'] => recipe['recipe_id']} }
   end
 
@@ -56,4 +56,7 @@ class Recipe
     contents['recipe']['directions']['direction'][stepNumber]['direction_description']
   end
 
+  def self.combine_ingredients(ingredient)
+    ingredient.is_a?(Array) ? ingredient.join(" ") : ingredient
+  end
 end
