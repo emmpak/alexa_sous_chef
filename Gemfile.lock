@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    alexa_verifier (0.1.0)
     coderay (1.1.1)
     diff-lcs (1.3)
     dotenv (2.2.1)
@@ -39,6 +40,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  alexa_verifier
   dotenv
   fatsecret-api
   pry
@@ -46,4 +48,4 @@ DEPENDENCIES
   sinatra
 
 BUNDLED WITH
-   1.14.6
+   1.15.2
