@@ -17,7 +17,7 @@ RSpec.describe Recipe do
   describe '.search' do
     it 'retrieves recipes for the specified ingredient' do
       expect(fat_secret).to receive(:search_recipes).with('pasta', 5)
-      described_class.search('pasta', 5, fat_secret)
+      described_class.search(['pasta'], 5, fat_secret)
     end
   end
 

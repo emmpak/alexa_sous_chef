@@ -1,6 +1,6 @@
 ENV['RACK_ENV'] ||= 'development'
 
-require 'dotenv/load' if (ENV['RUBY_ENV'] == "development" || ENV['RUBY_ENV'] == "test")
+require 'dotenv/load' if (ENV['RACK_ENV'] == "development" || ENV['RACK_ENV'] == "test")
 require 'net/http'
 require 'fatsecret'
 require_relative './ingredients'
@@ -17,7 +17,7 @@ class Recipe
   end
 
   def self.search(ingredient, number, api = FatSecret)
-    query = api.search_recipes(self.combine_ingredients(ingredient), number)
+    query = api.search_recipes(ingredient.join(" "), number)
     query['recipes']['recipe'].map! { |recipe| {recipe['recipe_name'] => recipe['recipe_id']} }
   end
 
@@ -54,9 +54,5 @@ class Recipe
   def get_preparation_step
     stepNumber = contents['stepNumber']
     contents['recipe']['directions']['direction'][stepNumber]['direction_description']
-  end
-
-  def self.combine_ingredients(ingredient)
-    ingredient.is_a?(Array) ? ingredient.join(" ") : ingredient
   end
 end
