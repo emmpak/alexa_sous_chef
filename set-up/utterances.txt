@@ -105,56 +105,56 @@ ListIngredientsSeparately next
 ListIngredientsSeparately read next ingredient
 ListIngredientsSeparately say next ingredient
 SearchRecipes search {IngredientOne}
-SearchRecipes search {IngredientOne} {IngredientTwo}
-SearchRecipes search {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes search {IngredientOne} and {IngredientTwo}
+SearchRecipes search {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes find {IngredientOne}
-SearchRecipes find {IngredientOne} {IngredientTwo}
-SearchRecipes find {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes find {IngredientOne} and {IngredientTwo}
+SearchRecipes find {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes look for {IngredientOne}
-SearchRecipes look for {IngredientOne} {IngredientTwo}
-SearchRecipes look for {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes look for {IngredientOne} and {IngredientTwo}
+SearchRecipes look for {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes search for {IngredientOne}
-SearchRecipes search for {IngredientOne} {IngredientTwo}
-SearchRecipes search for {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes search for {IngredientOne} and {IngredientTwo}
+SearchRecipes search for {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes recipes with {IngredientOne}
-SearchRecipes recipes with {IngredientOne} {IngredientTwo}
-SearchRecipes recipes with {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes recipes with {IngredientOne} and {IngredientTwo}
+SearchRecipes recipes with {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes find recipes with {IngredientOne}
-SearchRecipes find recipes with {IngredientOne} {IngredientTwo}
-SearchRecipes find recipes with {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes find recipes with {IngredientOne} and {IngredientTwo}
+SearchRecipes find recipes with {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes look for recipes with {IngredientOne}
-SearchRecipes look for recipes with {IngredientOne} {IngredientTwo}
-SearchRecipes look for recipes with {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes look for recipes with {IngredientOne} and {IngredientTwo}
+SearchRecipes look for recipes with {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes cook with {IngredientOne}
-SearchRecipes cook with {IngredientOne} {IngredientTwo}
-SearchRecipes cook with {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes cook with {IngredientOne} and {IngredientTwo}
+SearchRecipes cook with {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes search for recipes with {IngredientOne}
-SearchRecipes search for recipes with {IngredientOne} {IngredientTwo}
-SearchRecipes search for recipes with {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes search for recipes with {IngredientOne} and {IngredientTwo}
+SearchRecipes search for recipes with {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes search {IngredientOne}
-SearchRecipes search {IngredientOne} {IngredientTwo}
-SearchRecipes search {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes search {IngredientOne} and {IngredientTwo}
+SearchRecipes search {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes find {IngredientOne}
-SearchRecipes find {IngredientOne} {IngredientTwo}
-SearchRecipes find {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes find {IngredientOne} and {IngredientTwo}
+SearchRecipes find {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes look for {IngredientOne}
-SearchRecipes look for {IngredientOne} {IngredientTwo}
-SearchRecipes look for {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes look for {IngredientOne} and {IngredientTwo}
+SearchRecipes look for {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes search for {IngredientOne}
-SearchRecipes search for {IngredientOne} {IngredientTwo}
-SearchRecipes search for {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes search for {IngredientOne} and {IngredientTwo}
+SearchRecipes search for {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes recipes with {IngredientOne}
-SearchRecipes recipes with {IngredientOne} {IngredientTwo}
-SearchRecipes recipes with {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes recipes with {IngredientOne} and {IngredientTwo}
+SearchRecipes recipes with {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes find recipes with {IngredientOne}
-SearchRecipes find recipes with {IngredientOne} {IngredientTwo}
-SearchRecipes find recipes with {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes find recipes with {IngredientOne} and {IngredientTwo}
+SearchRecipes find recipes with {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes look for recipes with {IngredientOne}
-SearchRecipes look for recipes with {IngredientOne} {IngredientTwo}
-SearchRecipes look for recipes with {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes look for recipes with {IngredientOne} and {IngredientTwo}
+SearchRecipes look for recipes with {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes cook with {IngredientOne}
-SearchRecipes cook with {IngredientOne} {IngredientTwo}
-SearchRecipes cook with {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes cook with {IngredientOne} and {IngredientTwo}
+SearchRecipes cook with {IngredientOne} {IngredientTwo} and {IngredientThree}
 SearchRecipes search for recipes with {IngredientOne}
-SearchRecipes search for recipes with {IngredientOne} {IngredientTwo}
-SearchRecipes search for recipes with {IngredientOne} {IngredientTwo} {IngredientThree}
+SearchRecipes search for recipes with {IngredientOne} and {IngredientTwo}
+SearchRecipes search for recipes with {IngredientOne} {IngredientTwo} and {IngredientThree}
